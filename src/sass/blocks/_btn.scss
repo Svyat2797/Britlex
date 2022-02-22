@@ -1,0 +1,12 @@
+.btn {
+    width: 218px;
+    height: 60px;
+    background: #263238;
+    border-radius: 5px;
+    border: none;
+    &__promo {
+        width: 400px;
+        height: 90px;
+        border-radius: 15px;
+    }
+}

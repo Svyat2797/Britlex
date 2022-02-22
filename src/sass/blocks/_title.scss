@@ -1,0 +1,13 @@
+.title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+    &__first {
+        font-size: 64px;
+    }
+    &__second {
+        font-size: 30px;
+    }
+
+}
