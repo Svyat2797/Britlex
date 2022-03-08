@@ -1,0 +1,19 @@
+.footer {
+    padding-top: 31px;
+    padding-bottom: 65px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        color: $main-color;
+        &:hover {
+            color:#a5adaf;
+           
+        }
+        
+    }
+}

@@ -1,33 +1,40 @@
 .header {
     padding-top: 58px; 
-    &__container {
+    &__navbar {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
     &__ul {
         display: flex;
-        li {
-
-            list-style-type: none;
-            padding-right: 30px;
-            
-        }
-        a {
-            color: #263238;
-        }
-        }
-        
-    &__logo {
-        margin-right: auto;
     }
+    &__item {
+        list-style-type: none;
+        padding-right: 30px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        &-link {
+            color: $black-color;
+            &:hover {
+                color:#a5adaf;
+            }
+        }
+           
+    }     
     &__btn {
-        margin-left: auto;
-        width: 200px;
-        height: 50px;
+        padding: 15.5px 56.5px;
         border: 2px solid #263238;
         box-sizing: border-box;
         border-radius: 5px;
         background: #ffffff;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        &:hover {
+            background-color: #ecf2f3;
+           
+        }
     }
 }

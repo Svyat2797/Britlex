@@ -1,0 +1,31 @@
+.about-us {
+    padding-top: 250px;
+    &__wrap {
+        display: flex;
+        
+    }
+    &__title {
+        margin-bottom: 23px;
+    }
+    &__wr {
+        margin-right: 200px;
+        padding-top: 20px;
+    }
+    &__descr {
+        color: $main-color;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 43px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    &__number {
+        font-size: 48px;
+        line-height: 80px;
+        color: #2A3246;
+    }
+    
+}
