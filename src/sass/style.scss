@@ -18,12 +18,13 @@ h1,h2,h3, ul {
     margin-bottom: 0;
 }
 .container {
-    width: 1350px;
+    width: 1150px;
     margin: 0 auto;
 }
 
 
 @import 'blocks/header';
+@import 'blocks/menu';
 @import 'blocks/title';
 @import 'blocks/btn';
 @import 'blocks/promo';

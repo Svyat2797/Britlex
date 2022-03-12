@@ -24,7 +24,6 @@
            
     }     
     &__btn {
-        
         width: 160px;
         height: 50px;
         border: 2px solid #263238;
@@ -39,4 +38,14 @@
            
         }
     }
+    &__burger {
+        display: none;
+        cursor: pointer;
+        
+    }
+    
+    &__menu {
+        display: none;
+    }
+        
 }
